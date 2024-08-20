@@ -55,4 +55,24 @@ public class MetodosAtributos {
         public static String nomeCompleto (String primeiroNome, String segundoNome) {
             return "Resultado do método: " + primeiroNome.concat(" ").concat(segundoNome);
         }
+
+        //Palavras reservadas:
+        //public - Acesso a todos
+        //private - Acesso somente na classe
+        //protected - Acesso na classe e nas classes filhas
+        //static - Não precisa instanciar a classe
+        //final - Não pode ser alterado
+        //void - Não retorna nada
+        //int - Retorna um inteiro
+        //String - Retorna uma string
+        //boolean - Retorna um booleano
+        //double - Retorna um double
+        //float - Retorna um float
+        //char - Retorna um char
+        //long - Retorna um long
+        //short - Retorna um short
+        //byte - Retorna um byte
+        //Object - Retorna um objeto
+        //Tipo[] - Retorna um array
+        //Tipo[][] - Retorna uma matriz
 }
