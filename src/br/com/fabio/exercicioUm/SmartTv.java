@@ -7,7 +7,7 @@ public class SmartTv {
     int canal = 2;
 
     int volume = 5;
-    
+
     public void aumentarVolume() {
         volume++;
     }
@@ -16,7 +16,7 @@ public class SmartTv {
         volume--;
     }
 
-    public void mudarCanalMais() { 
+    public void mudarCanalMais() {
         canal++;
     }
 
@@ -24,5 +24,3 @@ public class SmartTv {
         canal--;
     }
 }
-
-

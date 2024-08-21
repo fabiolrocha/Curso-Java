@@ -1,8 +1,8 @@
 package br.com.fabio.exercicioUm;
 
 public class Principal {
-    
-    public static void main (String [] arg){
+
+    public static void main(String[] arg) {
 
         SmartTv smartTv = new SmartTv();
 
@@ -35,7 +35,7 @@ public class Principal {
         smartTv.mudarCanalMenos();
 
         System.out.println("Novo canal: " + smartTv.canal);
-    
+
     }
 
 }
